@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: EDDBC7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <TextField prefHeight="101.0" prefWidth="797.0" style="-fx-background-color: FC7300;" text="          Навчальний Заклад        ">
+               <font>
+                  <Font size="47.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#buttonClicked" prefHeight="31.0" prefWidth="121.0" text="Реєстрація" textFill="#0b28e3" />
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+         </children>
+      </HBox>
+      <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text fill="#dd0a0a" strokeType="OUTSIDE" strokeWidth="0.0" text="Ім'я користувача" wrappingWidth="121.6708984375" />
+            <TextField prefHeight="31.0" prefWidth="187.0" />
+         </children></HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="111.0" prefWidth="323.0">
+               <children>
+                  <Text fill="#f20707" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль" wrappingWidth="124.6708984375" />
+                  <TextField prefHeight="31.0" prefWidth="187.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="111.0" prefWidth="281.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#button" prefHeight="31.0" prefWidth="74.0" text="вхід" textFill="#4fc908">
+                     <HBox.margin>
+                        <Insets left="190.0" top="80.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="300.0" left="400.0" right="400.0" top="300.0" />
+   </opaqueInsets>
+</VBox>

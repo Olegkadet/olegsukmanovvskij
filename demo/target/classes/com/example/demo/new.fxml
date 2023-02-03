@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="393.0" prefWidth="600.0" style="-fx-background-color: D9ACF5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.New">
+   <children>
+      <Text fill="#fffb00" fontSmoothingType="LCD" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Список учнів" textAlignment="CENTER" wrappingWidth="150.6708984375" />
+      <TextArea layoutX="14.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" text="1)Василюу В.В.&#10;2)Ільків Б.О.&#10;3)Журавель Н.А.&#10;4) Сировий В.І.&#10;5)Сукмановський О.М." />
+      <TableView layoutX="250.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="108.0" text="Предмети" />
+          <TableColumn prefWidth="91.0" text="Оцінка" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

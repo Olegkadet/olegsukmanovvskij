@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: F94A29;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Registr">
+   <children>
+      <TextField layoutX="286.0" layoutY="86.0" AnchorPane.leftAnchor="286.0" />
+      <TextField layoutX="286.0" layoutY="142.0" />
+      <Text fill="#2200ff" layoutX="22.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ім'я користувача:" wrappingWidth="142.6708984375" />
+      <Text fill="#f7f200" layoutX="22.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Група/курс користувача:" />
+      <Text layoutX="158.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Реєстрація" textAlignment="CENTER" wrappingWidth="256.9111328125">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Button layoutX="480.0" layoutY="355.0" mnemonicParsing="false" onAction="#registration" style="-fx-background-color: FF8B13;" text="Зареєструватися" />
+   </children>
+</AnchorPane>
